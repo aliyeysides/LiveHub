@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20141124040936) do
 
   create_table "ratings", force: true do |t|
     t.integer  "user_id"
-    t.boolean  "rating"
+    t.boolean  "helpful",         default: true
     t.integer  "ratingable_id"
     t.string   "ratingable_type"
     t.datetime "created_at"
