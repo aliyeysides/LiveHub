@@ -33,7 +33,6 @@ class ReviewsController < ApplicationController
 
   def edit
     @review = Review.find(params[:id])
-
   end
 
   def destroy
@@ -45,7 +44,8 @@ class ReviewsController < ApplicationController
         render nothing: true
       end
       format.any do
-      redirect_to "/users/#{@user.id}"
+        redirect_to "/users/#{@user.id}"
+      end
     end
   end
 
