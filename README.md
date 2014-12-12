@@ -1,5 +1,3 @@
-<img src="https://travis-ci.org/ospreys-2014/Kendrick.svg?branch=master">
-
 LiveHub is a social medium for musicians that allows artists to set up a profile and showcase their talents. Users can rate and review artists based on their past performances and get in touch with these artists to book for their own parties. 
 
 ## Musicians
